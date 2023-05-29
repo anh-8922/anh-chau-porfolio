@@ -2,7 +2,7 @@
 //import './App.css';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Homepage from "./Pages/home";
-import Layout from "./layout";
+
 import Profile from "./Pages/profile";
 
 function App() {
@@ -10,8 +10,8 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Homepage/>}/>
-        <Route path="/main" element={<Layout/>}/>
-        <Route path="/main/:id" element={<Profile/>}/>
+        <Route path="/profile" element={<Profile/>}/>
+        
       </Routes>
       
     </BrowserRouter>
