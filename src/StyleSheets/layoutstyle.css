@@ -1,0 +1,15 @@
+.heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#git {
+    clip-path: polygon(0 0, 99% 0, 0 100%);
+    width: 7rem;
+    height: 7rem;
+    background-color: var(--dark-colour);
+}
+#git-link {
+    width: 2.5rem;
+    margin: 0.7rem
+}

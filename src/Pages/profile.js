@@ -1,9 +1,14 @@
 import React from "react";
+import Layout from "../Layout/layout";
+import '../StyleSheets/page.css';
 
 export default function Profile() {
     return(
-        <div>
-            <div style={{color: "black", fontSize: "5rem", backgroundColor: "blue", height: "50vh"}}> this is profile</div>
-        </div>
+        <Layout>
+            <div id="profile">
+                <div id="photo">Hello</div>
+                <div id="text"></div>
+            </div>
+        </Layout>
     )
 }
