@@ -33,28 +33,3 @@ nav a {
     color: var(--dark-colour)
 }
 
-.carousel {
-    background-color: aqua;
-    overflow: hidden;
-    width: 80%;
-}
-.carousel-items {
-    height: 30rem;
-    min-width: 100%;
-    width: 100%;
-    display: inline-flex;
-    align-items: center;
-    background-color: yellow;
-    
-}
-.internal-organ {
-    white-space: nowrap;
-    transition: transform 0.3s;
-}
-.indicator {
-    display: flex;
-    justify-content: center;
-}
-.indicator > button {
-    margin: 0.5rem
-}

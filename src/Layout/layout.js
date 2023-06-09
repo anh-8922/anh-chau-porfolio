@@ -14,7 +14,10 @@ export default function Layout({children}) {
                 </div>
                 <Navigator/>
             </div>
-            <div className='main'>{children}</div>
+            <div className='main' style={{
+                display: 'flex',
+                justifyContent: 'center',
+            }}>{children}</div>
         </>
     )
 }
